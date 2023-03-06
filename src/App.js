@@ -6,6 +6,7 @@ import Name from './websitename';
 import Shape from './shapes/shape'
 import App1, { Circle, Cuboid } from './shapes/shape';
 import Formula from './bttask/formula'
+import Hook from './shapes/hookpd';
 //import Button from '@mui/material/Button';  
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Name></Name> */}
     <Shape></Shape>
   <Formula></Formula>
+  <Hook/>
     </div>
   );
 }
